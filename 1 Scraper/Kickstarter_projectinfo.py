@@ -66,7 +66,6 @@ if __name__ == "__main__":
     
     try:
         print("Creating Excel File")
-        cur_time = datetime.strftime(datetime.utcnow(), '%c')
         filename = 'kickstarter_data.xlsx'
         workbook = xlsxwriter.Workbook(filename)
         print("Adding New Sheet")
