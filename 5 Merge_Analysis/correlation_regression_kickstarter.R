@@ -6,7 +6,7 @@ library(funModeling)
 
 #### Import data #### 
 
-data <- read_excel("/Users/toscavoogd/Kickstarter_Thesis/merged_data.xlsx")
+data <- read_excel("/Users/toscavoogd/Git_thesis_kick/Kickstarter_thesis/merged_data.xlsx")
 #View(data)
 
 #Check datatypes and change to numeric
