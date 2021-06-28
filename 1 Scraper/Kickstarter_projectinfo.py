@@ -66,7 +66,7 @@ if __name__ == "__main__":
     
     try:
         print("Creating Excel File")
-        filename = 'kickstarter_data.xlsx'
+        filename = 'demo_kickstarter_data.xlsx'
         workbook = xlsxwriter.Workbook(filename)
         print("Adding New Sheet")
         worksheet = workbook.add_worksheet()
